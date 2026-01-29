@@ -1,8 +1,8 @@
 import smtplib
 from email.message import EmailMessage
 
-SENDER_EMAIL = "iamalvinnjoseph@gmail.com"
-APP_PASSWORD = "eennxatlvbmddzax"
+SENDER_EMAIL = "yor email"
+APP_PASSWORD = "your app pass"
 
 def send_otp_email(to_email: str, otp: str):
     msg = EmailMessage()
@@ -14,3 +14,4 @@ def send_otp_email(to_email: str, otp: str):
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
         smtp.login(SENDER_EMAIL, APP_PASSWORD)
         smtp.send_message(msg)
+
