@@ -1,0 +1,29 @@
+{
+  "EMP001": {
+    "name": "Alvin Joseph",
+    "email": "alvin@example.com",
+    "phone": "9876543210"
+  },
+  "EMP002": {
+    "name": "Rahul Sharma",
+    "email": "rahul@example.com",
+    "phone": "9123456780"
+  },
+  "EMP003": {
+    "name": "Suraj Mehta",
+    "email": "suraj@example.com",
+    "phone": "9123456734"
+  }
+  ,
+  "EMP004": {
+    "name": "Jaden Smith",
+    "email": "jaden@example.com",
+    "phone": "9123456723"
+  }
+  ,
+  "EMP005": {
+    "name": "William Turner",
+    "email": "william@example.com",
+    "phone": "9123434580"
+  }
+}
